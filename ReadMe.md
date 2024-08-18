@@ -20,7 +20,7 @@ Home Controller-un Index action-da aşağıdakı sətirlə NLog-u stifadə etmə
 `Logger logger = LogManager.GetCurrentClassLogger();`
 Sonrasında isə kodumuzun hər hansı bir hissəsində təhlükə səviyyəsinə görə logger-i işə salırıq.
 
-```
+```cs
 logger.Trace("Trace səviyyəsi üçün log");
 logger.Info("Informasiya səviyyəsi üçün log");
 logger.Debug("Debug səviyyəsi üçün log");
@@ -31,7 +31,7 @@ logger.Fatal("Çökmə səviyyəsi üçün log");
 
 Logların necə qeyd ediləcəyini seçmək üçün isə öncədən yaratdığımız `nlog.config` faylından istifadə edirik.
 
-```
+```html
 <targets>
 	<target xsi:type="Console" name="WriteToConsole" layout="${longdate} ${level} ${message}"/>
 
@@ -40,7 +40,7 @@ Logların necə qeyd ediləcəyini seçmək üçün isə öncədən yaratdığı
 ```
 targets hissəsindən istifadə edərək loglamanın harada yerinə yetirələcəyini qeyd edirik. Bu əsasən ya fayl ya da konsol üzərindən olur.
 
-```
+```html
 <rules>
 	<logger name="*" minlevel="Trace" writeTo="WriteToFile" />
 	<logger name="*" minlevel="Trace" writeTo="WriteToConsole" />
