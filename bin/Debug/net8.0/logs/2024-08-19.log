@@ -1,0 +1,827 @@
+2024-08-19 00:54:33.2186 Debug init main
+2024-08-19 00:54:33.3409 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-19 00:54:33.3445 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-19 00:54:33.3445 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-19 00:54:33.3445 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-19 00:54:33.3445 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-19 00:54:33.3890 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-19 00:54:33.3890 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-19 00:54:33.3890 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-19 00:54:33.4143 Debug Hosting starting
+2024-08-19 00:54:33.4229 Info User profile is available. Using 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 00:54:33.4229 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-d4abafb7-3a22-430b-b387-942c3364866f.xml'.
+2024-08-19 00:54:33.4229 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-f16383bd-12cb-4ce6-9663-054c0e1426d7.xml'.
+2024-08-19 00:54:33.4229 Debug Found key {d4abafb7-3a22-430b-b387-942c3364866f}.
+2024-08-19 00:54:33.4229 Debug Found key {f16383bd-12cb-4ce6-9663-054c0e1426d7}.
+2024-08-19 00:54:33.4385 Debug Considering key {f16383bd-12cb-4ce6-9663-054c0e1426d7} with expiration date 2024-11-05 18:46:24Z as default key.
+2024-08-19 00:54:33.4385 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 00:54:33.4385 Debug Decrypting secret element using Windows DPAPI.
+2024-08-19 00:54:33.4385 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 00:54:33.4385 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-08-19 00:54:33.4385 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-08-19 00:54:33.4385 Debug Using key {f16383bd-12cb-4ce6-9663-054c0e1426d7} as the default key.
+2024-08-19 00:54:33.4385 Debug Key ring with default key {f16383bd-12cb-4ce6-9663-054c0e1426d7} was loaded during application startup.
+2024-08-19 00:54:33.4660 Info Now listening on: http://localhost:5256
+2024-08-19 00:54:33.4685 Debug Loaded hosting startup assembly NLogForASP
+2024-08-19 00:54:33.4685 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-19 00:54:33.4685 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-19 00:54:33.4685 Info Application started. Press Ctrl+C to shut down.
+2024-08-19 00:54:33.4685 Info Hosting environment: Development
+2024-08-19 00:54:33.4685 Info Content root path: C:\Users\Novruzoff\source\repos\NLogForASP
+2024-08-19 00:54:33.4685 Debug Hosting started
+2024-08-19 00:54:33.8462 Debug Connection id "0HN5VOVRBH8ET" accepted.
+2024-08-19 00:54:33.8462 Debug Connection id "0HN5VOVRBH8ET" started.
+2024-08-19 00:54:33.8572 Debug Connection id "0HN5VOVRBH8EU" accepted.
+2024-08-19 00:54:33.8572 Debug Connection id "0HN5VOVRBH8EU" started.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8EU" received FIN.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8ET" received FIN.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8EU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8ET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8EU" disconnecting.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8ET" disconnecting.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8ET" stopped.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8EU" stopped.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8EV" accepted.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8EV" started.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8F0" accepted.
+2024-08-19 00:54:33.9048 Debug Connection id "0HN5VOVRBH8F0" started.
+2024-08-19 00:54:33.9316 Info Request starting HTTP/1.1 GET http://localhost:5256/ - - -
+2024-08-19 00:54:33.9680 Debug Wildcard detected, all requests with hosts will be allowed.
+2024-08-19 00:54:33.9680 Trace All hosts are allowed.
+2024-08-19 00:54:33.9680 Warn Failed to determine the https port for redirect.
+2024-08-19 00:54:33.9680 Debug The request path / does not match a supported file type
+2024-08-19 00:54:33.9680 Debug 1 candidate(s) found for the request path '/'
+2024-08-19 00:54:33.9680 Debug Endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-19 00:54:33.9680 Debug Request matched endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 00:54:33.9680 Trace The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-08-19 00:54:33.9826 Info Executing endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 00:54:33.9826 Info Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NLogForASP.Controllers.HomeController (NLogForASP).
+2024-08-19 00:54:33.9826 Debug Execution plan of authorization filters (in the following order): None
+2024-08-19 00:54:33.9826 Debug Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 00:54:33.9826 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2024-08-19 00:54:33.9826 Debug Execution plan of exception filters (in the following order): None
+2024-08-19 00:54:33.9826 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 00:54:33.9826 Trace Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:33.9826 Trace Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:33.9979 Debug Executing controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 00:54:33.9979 Debug NLog HomeController-a inject olundu!
+2024-08-19 00:54:33.9979 Debug Executed controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 00:54:33.9979 Trace Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 00:54:33.9979 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 00:54:33.9979 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 00:54:33.9979 Info Executing action method NLogForASP.Controllers.HomeController.Index (NLogForASP) - Validation state: Valid
+2024-08-19 00:54:33.9979 Info HomeController-un Index səhifəsi işə düşdü
+2024-08-19 00:54:33.9979 Info Executed action method NLogForASP.Controllers.HomeController.Index (NLogForASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2928ms.
+2024-08-19 00:54:33.9979 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 00:54:33.9979 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 00:54:33.9979 Trace Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 00:54:33.9979 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:33.9979 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:33.9979 Trace Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 00:54:33.9979 Debug View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-19 00:54:33.9979 Trace Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-08-19 00:54:33.9979 Trace Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-08-19 00:54:33.9979 Trace Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-08-19 00:54:33.9979 Trace Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-08-19 00:54:33.9979 Info Executing ViewResult, running view Index.
+2024-08-19 00:54:34.0150 Debug The view path '/Views/Home/Index.cshtml' was found in 3.2356ms.
+2024-08-19 00:54:34.0150 Debug View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-19 00:54:34.0150 Trace Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-08-19 00:54:34.0150 Trace Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-08-19 00:54:34.0477 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 00:54:34.0477 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 00:54:34.0477 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 00:54:34.0477 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 00:54:34.0477 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 00:54:34.0477 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 00:54:34.0477 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 00:54:34.0477 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 00:54:34.0477 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 00:54:34.0477 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 00:54:34.0477 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 00:54:34.0477 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 00:54:34.0477 Debug Response markup is scheduled to include Browser Link script injection.
+2024-08-19 00:54:34.0477 Debug Response markup is scheduled to include browser refresh script injection.
+2024-08-19 00:54:34.0477 Info Executed ViewResult - view Index executed in 51.0794ms.
+2024-08-19 00:54:34.0477 Trace After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 00:54:34.0477 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:34.0477 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:34.0477 Trace Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:34.0477 Trace Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 00:54:34.0477 Info Executed action NLogForASP.Controllers.HomeController.Index (NLogForASP) in 63.4459ms
+2024-08-19 00:54:34.0477 Info Executed endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 00:54:34.0477 Debug Response markup was updated to include Browser Link script injection.
+2024-08-19 00:54:34.0606 Debug Response markup was updated to include browser refresh script injection.
+2024-08-19 00:54:34.0606 Debug Connection id "0HN5VOVRBH8EV" completed keep alive response.
+2024-08-19 00:54:34.0606 Info Request finished HTTP/1.1 GET http://localhost:5256/ - 200 - text/html;+charset=utf-8 131.0808ms
+2024-08-19 00:54:34.0898 Info Request starting HTTP/1.1 GET http://localhost:5256/_vs/browserLink - - -
+2024-08-19 00:54:34.0898 Info Request starting HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - - -
+2024-08-19 00:54:34.0920 Debug Connection id "0HN5VOVRBH8EV" completed keep alive response.
+2024-08-19 00:54:34.0920 Info Request finished HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.4030ms
+2024-08-19 00:54:34.1127 Debug Connection id "0HN5VOVRBH8F0" completed keep alive response.
+2024-08-19 00:54:34.1127 Info Request finished HTTP/1.1 GET http://localhost:5256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 23.0719ms
+2024-08-19 00:54:36.4943 Debug Connection id "0HN5VOVRBH8EV" received FIN.
+2024-08-19 00:54:36.4943 Debug Connection id "0HN5VOVRBH8F0" received FIN.
+2024-08-19 00:54:36.4943 Debug Connection id "0HN5VOVRBH8EV" disconnecting.
+2024-08-19 00:54:36.4943 Debug Connection id "0HN5VOVRBH8EV" stopped.
+2024-08-19 00:54:36.4943 Debug Connection id "0HN5VOVRBH8F0" disconnecting.
+2024-08-19 00:54:36.4943 Debug Connection id "0HN5VOVRBH8EV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 00:54:36.5006 Debug Connection id "0HN5VOVRBH8F0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 00:54:36.5006 Debug Connection id "0HN5VOVRBH8F0" stopped.
+2024-08-19 01:00:46.5338 Debug Connection id "0HN5VOVRBH8F1" accepted.
+2024-08-19 01:00:46.5338 Debug Connection id "0HN5VOVRBH8F1" started.
+2024-08-19 01:00:46.5338 Debug Connection id "0HN5VOVRBH8F2" accepted.
+2024-08-19 01:00:46.5338 Debug Connection id "0HN5VOVRBH8F2" started.
+2024-08-19 01:00:46.5338 Info Request starting HTTP/1.1 GET http://localhost:5256/ - - -
+2024-08-19 01:00:46.5338 Trace All hosts are allowed.
+2024-08-19 01:00:46.5338 Debug The request path / does not match a supported file type
+2024-08-19 01:00:46.5338 Debug 1 candidate(s) found for the request path '/'
+2024-08-19 01:00:46.5338 Debug Endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-19 01:00:46.5338 Debug Request matched endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:00:46.5338 Trace The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-08-19 01:00:46.5338 Info Executing endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:00:46.5464 Info Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NLogForASP.Controllers.HomeController (NLogForASP).
+2024-08-19 01:00:46.5464 Debug Execution plan of authorization filters (in the following order): None
+2024-08-19 01:00:46.5464 Debug Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:00:46.5464 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2024-08-19 01:00:46.5464 Debug Execution plan of exception filters (in the following order): None
+2024-08-19 01:00:46.5464 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:00:46.5464 Trace Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5464 Trace Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5464 Debug Executing controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:00:46.5635 Debug NLog HomeController-a inject olundu!
+2024-08-19 01:00:46.5635 Debug Executed controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:00:46.5635 Trace Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:00:46.5635 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:00:46.5635 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:00:46.5635 Info Executing action method NLogForASP.Controllers.HomeController.Index (NLogForASP) - Validation state: Valid
+2024-08-19 01:00:46.5635 Info HomeController-un Index səhifəsi işə düşdü
+2024-08-19 01:00:46.5635 Fatal Fatality Error
+2024-08-19 01:00:46.5635 Info Executed action method NLogForASP.Controllers.HomeController.Index (NLogForASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0707ms.
+2024-08-19 01:00:46.5635 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:00:46.5635 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:00:46.5635 Trace Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:00:46.5635 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5635 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5635 Trace Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:00:46.5635 Debug View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-19 01:00:46.5635 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:00:46.5635 Trace Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-08-19 01:00:46.5635 Trace Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-08-19 01:00:46.5635 Trace Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-08-19 01:00:46.5635 Trace Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-08-19 01:00:46.5635 Info Executing ViewResult, running view Index.
+2024-08-19 01:00:46.5635 Debug The view path '/Views/Home/Index.cshtml' was found in 3.884ms.
+2024-08-19 01:00:46.5773 Debug View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-19 01:00:46.5773 Trace Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-08-19 01:00:46.5773 Trace Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:00:46.5773 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:00:46.5773 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:00:46.5773 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:00:46.5773 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:00:46.5773 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:00:46.5773 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:00:46.5773 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:00:46.5773 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:00:46.5773 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:00:46.5773 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:00:46.5773 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:00:46.5773 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:00:46.5773 Debug Response markup is scheduled to include Browser Link script injection.
+2024-08-19 01:00:46.5773 Debug Response markup is scheduled to include browser refresh script injection.
+2024-08-19 01:00:46.5773 Info Executed ViewResult - view Index executed in 24.4103ms.
+2024-08-19 01:00:46.5773 Trace After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:00:46.5773 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5773 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5773 Trace Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5773 Trace Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:00:46.5773 Info Executed action NLogForASP.Controllers.HomeController.Index (NLogForASP) in 44.2179ms
+2024-08-19 01:00:46.5773 Info Executed endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:00:46.5773 Debug Response markup was updated to include Browser Link script injection.
+2024-08-19 01:00:46.5773 Debug Response markup was updated to include browser refresh script injection.
+2024-08-19 01:00:46.5773 Debug Connection id "0HN5VOVRBH8F1" completed keep alive response.
+2024-08-19 01:00:46.5921 Info Request finished HTTP/1.1 GET http://localhost:5256/ - 200 - text/html;+charset=utf-8 52.5967ms
+2024-08-19 01:00:46.6757 Info Request starting HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/css/bootstrap.min.css - - -
+2024-08-19 01:00:46.6757 Trace All hosts are allowed.
+2024-08-19 01:00:46.6757 Debug Connection id "0HN5VOVRBH8F3" accepted.
+2024-08-19 01:00:46.6757 Debug Connection id "0HN5VOVRBH8F3" started.
+2024-08-19 01:00:46.6757 Info Request starting HTTP/1.1 GET http://localhost:5256/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - -
+2024-08-19 01:00:46.6757 Trace All hosts are allowed.
+2024-08-19 01:00:46.6757 Info Request starting HTTP/1.1 GET http://localhost:5256/NLogForASP.styles.css?v=DbOw3NgZclhmmD1b2Jp4i06G1B5e9JWkcaTj5_zJZkw - - -
+2024-08-19 01:00:46.6757 Trace All hosts are allowed.
+2024-08-19 01:00:46.6757 Trace Range header's value is empty.
+2024-08-19 01:00:46.6757 Trace Range header's value is empty.
+2024-08-19 01:00:46.6757 Trace Range header's value is empty.
+2024-08-19 01:00:46.6757 Info The file /css/site.css was not modified
+2024-08-19 01:00:46.6757 Info The file /NLogForASP.styles.css was not modified
+2024-08-19 01:00:46.6757 Info The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 01:00:46.6757 Debug Handled. Status code: 304 File: /css/site.css
+2024-08-19 01:00:46.6757 Debug Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2024-08-19 01:00:46.6757 Debug Handled. Status code: 304 File: /NLogForASP.styles.css
+2024-08-19 01:00:46.6757 Debug Connection id "0HN5VOVRBH8F2" completed keep alive response.
+2024-08-19 01:00:46.6757 Debug Connection id "0HN5VOVRBH8F1" completed keep alive response.
+2024-08-19 01:00:46.6757 Debug Connection id "0HN5VOVRBH8F3" completed keep alive response.
+2024-08-19 01:00:46.6757 Info Request finished HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/css/bootstrap.min.css - 304 - text/css 8.3082ms
+2024-08-19 01:00:46.6757 Info Request finished HTTP/1.1 GET http://localhost:5256/NLogForASP.styles.css?v=DbOw3NgZclhmmD1b2Jp4i06G1B5e9JWkcaTj5_zJZkw - 304 - text/css 4.8570ms
+2024-08-19 01:00:46.6757 Info Request finished HTTP/1.1 GET http://localhost:5256/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 - text/css 5.7192ms
+2024-08-19 01:00:46.6868 Debug Connection id "0HN5VOVRBH8F4" accepted.
+2024-08-19 01:00:46.6868 Debug Connection id "0HN5VOVRBH8F4" started.
+2024-08-19 01:00:46.6868 Info Request starting HTTP/1.1 GET http://localhost:5256/lib/jquery/dist/jquery.min.js - - -
+2024-08-19 01:00:46.6868 Trace All hosts are allowed.
+2024-08-19 01:00:46.6868 Info Request starting HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - -
+2024-08-19 01:00:46.6868 Trace All hosts are allowed.
+2024-08-19 01:00:46.6868 Info Request starting HTTP/1.1 GET http://localhost:5256/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - - -
+2024-08-19 01:00:46.6868 Trace All hosts are allowed.
+2024-08-19 01:00:46.6868 Trace Range header's value is empty.
+2024-08-19 01:00:46.6868 Info The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 01:00:46.6868 Debug Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-08-19 01:00:46.6868 Trace Range header's value is empty.
+2024-08-19 01:00:46.6868 Info The file /js/site.js was not modified
+2024-08-19 01:00:46.6868 Debug Handled. Status code: 304 File: /js/site.js
+2024-08-19 01:00:46.6868 Debug Connection id "0HN5VOVRBH8F3" completed keep alive response.
+2024-08-19 01:00:46.6868 Debug Connection id "0HN5VOVRBH8F2" completed keep alive response.
+2024-08-19 01:00:46.6868 Info Request finished HTTP/1.1 GET http://localhost:5256/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 - text/javascript 0.5707ms
+2024-08-19 01:00:46.6868 Info Request finished HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 - text/javascript 1.0520ms
+2024-08-19 01:00:46.6868 Info Request starting HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - - -
+2024-08-19 01:00:46.6868 Debug Connection id "0HN5VOVRBH8F1" completed keep alive response.
+2024-08-19 01:00:46.6868 Info Request finished HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.2736ms
+2024-08-19 01:00:46.6868 Trace Range header's value is empty.
+2024-08-19 01:00:46.6868 Info The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 01:00:46.6868 Debug Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2024-08-19 01:00:46.6868 Debug Connection id "0HN5VOVRBH8F4" completed keep alive response.
+2024-08-19 01:00:46.6868 Info Request finished HTTP/1.1 GET http://localhost:5256/lib/jquery/dist/jquery.min.js - 304 - text/javascript 5.7218ms
+2024-08-19 01:00:46.7014 Debug Connection id "0HN5VOVRBH8F5" accepted.
+2024-08-19 01:00:46.7014 Debug Connection id "0HN5VOVRBH8F5" started.
+2024-08-19 01:00:46.7014 Info Request starting HTTP/1.1 GET http://localhost:5256/_vs/browserLink - - -
+2024-08-19 01:00:46.7311 Debug Connection id "0HN5VOVRBH8F5" completed keep alive response.
+2024-08-19 01:00:46.7311 Info Request finished HTTP/1.1 GET http://localhost:5256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 28.0212ms
+2024-08-19 01:00:46.7718 Info Request starting HTTP/1.1 GET http://localhost:5256/favicon.ico - - -
+2024-08-19 01:00:46.7718 Trace All hosts are allowed.
+2024-08-19 01:00:46.7718 Trace Range header's value is empty.
+2024-08-19 01:00:46.7718 Info The file /favicon.ico was not modified
+2024-08-19 01:00:46.7718 Debug Handled. Status code: 304 File: /favicon.ico
+2024-08-19 01:00:46.7718 Debug Connection id "0HN5VOVRBH8F5" completed keep alive response.
+2024-08-19 01:00:46.7718 Info Request finished HTTP/1.1 GET http://localhost:5256/favicon.ico - 304 - image/x-icon 1.1222ms
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F3" received FIN.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F4" received FIN.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F2" received FIN.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F1" received FIN.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F4" disconnecting.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F4" stopped.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F3" disconnecting.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F2" disconnecting.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F3" stopped.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F1" disconnecting.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F1" stopped.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F5" received FIN.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F5" disconnecting.
+2024-08-19 01:00:47.0486 Debug Connection id "0HN5VOVRBH8F5" stopped.
+2024-08-19 01:00:47.0633 Debug Connection id "0HN5VOVRBH8F2" stopped.
+2024-08-19 01:05:44.6181 Debug Connection id "0HN5VOVRBH8F6" accepted.
+2024-08-19 01:05:44.6181 Debug Connection id "0HN5VOVRBH8F7" accepted.
+2024-08-19 01:05:44.6181 Debug Connection id "0HN5VOVRBH8F6" started.
+2024-08-19 01:05:44.6181 Debug Connection id "0HN5VOVRBH8F7" started.
+2024-08-19 01:05:44.6181 Info Request starting HTTP/1.1 GET http://localhost:5256/ - - -
+2024-08-19 01:05:44.6236 Trace All hosts are allowed.
+2024-08-19 01:05:44.6236 Debug The request path / does not match a supported file type
+2024-08-19 01:05:44.6236 Debug 1 candidate(s) found for the request path '/'
+2024-08-19 01:05:44.6236 Debug Endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-19 01:05:44.6236 Debug Request matched endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:05:44.6236 Trace The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-08-19 01:05:44.6236 Info Executing endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:05:44.6236 Info Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NLogForASP.Controllers.HomeController (NLogForASP).
+2024-08-19 01:05:44.6236 Debug Execution plan of authorization filters (in the following order): None
+2024-08-19 01:05:44.6236 Debug Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:05:44.6236 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2024-08-19 01:05:44.6236 Debug Execution plan of exception filters (in the following order): None
+2024-08-19 01:05:44.6236 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:05:44.6236 Trace Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Trace Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Debug Executing controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:05:44.6236 Debug NLog HomeController-a inject olundu!
+2024-08-19 01:05:44.6236 Debug Executed controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:05:44.6236 Trace Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:05:44.6236 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:05:44.6236 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:05:44.6236 Info Executing action method NLogForASP.Controllers.HomeController.Index (NLogForASP) - Validation state: Valid
+2024-08-19 01:05:44.6236 Info HomeController-un Index səhifəsi işə düşdü
+2024-08-19 01:05:44.6236 Info Informasiya üçün log
+2024-08-19 01:05:44.6236 Debug Debug üçün log
+2024-08-19 01:05:44.6236 Warn Xəbərdarlıq üçün log
+2024-08-19 01:05:44.6236 Error Xəta üçün log
+2024-08-19 01:05:44.6236 Fatal Çökmə üçün log
+2024-08-19 01:05:44.6236 Info Executed action method NLogForASP.Controllers.HomeController.Index (NLogForASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4775ms.
+2024-08-19 01:05:44.6236 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:05:44.6236 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:05:44.6236 Trace Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:05:44.6236 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Trace Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:05:44.6236 Debug View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-19 01:05:44.6236 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:05:44.6236 Trace Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-08-19 01:05:44.6236 Trace Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-08-19 01:05:44.6236 Trace Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-08-19 01:05:44.6236 Trace Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-08-19 01:05:44.6236 Info Executing ViewResult, running view Index.
+2024-08-19 01:05:44.6236 Debug The view path '/Views/Home/Index.cshtml' was found in 0.6422ms.
+2024-08-19 01:05:44.6236 Debug View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-19 01:05:44.6236 Trace Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-08-19 01:05:44.6236 Trace Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:05:44.6236 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:05:44.6236 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:05:44.6236 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:05:44.6236 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:05:44.6236 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:05:44.6236 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:05:44.6236 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:05:44.6236 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:05:44.6236 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:05:44.6236 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:05:44.6236 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:05:44.6236 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:05:44.6236 Debug Response markup is scheduled to include Browser Link script injection.
+2024-08-19 01:05:44.6236 Debug Response markup is scheduled to include browser refresh script injection.
+2024-08-19 01:05:44.6236 Info Executed ViewResult - view Index executed in 3.2885ms.
+2024-08-19 01:05:44.6236 Trace After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:05:44.6236 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Trace Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Trace Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:05:44.6236 Info Executed action NLogForASP.Controllers.HomeController.Index (NLogForASP) in 4.5291ms
+2024-08-19 01:05:44.6236 Info Executed endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:05:44.6236 Debug Response markup was updated to include Browser Link script injection.
+2024-08-19 01:05:44.6236 Debug Response markup was updated to include browser refresh script injection.
+2024-08-19 01:05:44.6236 Debug Connection id "0HN5VOVRBH8F6" completed keep alive response.
+2024-08-19 01:05:44.6236 Info Request finished HTTP/1.1 GET http://localhost:5256/ - 200 - text/html;+charset=utf-8 8.6425ms
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/css/bootstrap.min.css - - -
+2024-08-19 01:05:44.6783 Trace All hosts are allowed.
+2024-08-19 01:05:44.6783 Trace Range header's value is empty.
+2024-08-19 01:05:44.6783 Info The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-08-19 01:05:44.6783 Debug Handled. Status code: 304 File: /lib/bootstrap/dist/css/bootstrap.min.css
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F6" completed keep alive response.
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/css/bootstrap.min.css - 304 - text/css 0.5345ms
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - -
+2024-08-19 01:05:44.6783 Trace All hosts are allowed.
+2024-08-19 01:05:44.6783 Trace Range header's value is empty.
+2024-08-19 01:05:44.6783 Info The file /css/site.css was not modified
+2024-08-19 01:05:44.6783 Debug Handled. Status code: 304 File: /css/site.css
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F7" completed keep alive response.
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 - text/css 0.4125ms
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F8" accepted.
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F8" started.
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/NLogForASP.styles.css?v=DbOw3NgZclhmmD1b2Jp4i06G1B5e9JWkcaTj5_zJZkw - - -
+2024-08-19 01:05:44.6783 Trace All hosts are allowed.
+2024-08-19 01:05:44.6783 Trace Range header's value is empty.
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F9" accepted.
+2024-08-19 01:05:44.6783 Info The file /NLogForASP.styles.css was not modified
+2024-08-19 01:05:44.6783 Debug Handled. Status code: 304 File: /NLogForASP.styles.css
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F8" completed keep alive response.
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F9" started.
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/NLogForASP.styles.css?v=DbOw3NgZclhmmD1b2Jp4i06G1B5e9JWkcaTj5_zJZkw - 304 - text/css 0.5702ms
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/lib/jquery/dist/jquery.min.js - - -
+2024-08-19 01:05:44.6783 Trace All hosts are allowed.
+2024-08-19 01:05:44.6783 Trace Range header's value is empty.
+2024-08-19 01:05:44.6783 Info The file /lib/jquery/dist/jquery.min.js was not modified
+2024-08-19 01:05:44.6783 Debug Handled. Status code: 304 File: /lib/jquery/dist/jquery.min.js
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F9" completed keep alive response.
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/lib/jquery/dist/jquery.min.js - 304 - text/javascript 1.1528ms
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8FA" accepted.
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8FA" started.
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8FB" accepted.
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8FB" started.
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - -
+2024-08-19 01:05:44.6783 Trace All hosts are allowed.
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - - -
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F6" completed keep alive response.
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - - -
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 0.1291ms
+2024-08-19 01:05:44.6783 Trace All hosts are allowed.
+2024-08-19 01:05:44.6783 Trace Range header's value is empty.
+2024-08-19 01:05:44.6783 Info The file /js/site.js was not modified
+2024-08-19 01:05:44.6783 Debug Handled. Status code: 304 File: /js/site.js
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8F7" completed keep alive response.
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 - text/javascript 0.6809ms
+2024-08-19 01:05:44.6783 Trace Range header's value is empty.
+2024-08-19 01:05:44.6783 Info The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-08-19 01:05:44.6783 Debug Handled. Status code: 304 File: /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2024-08-19 01:05:44.6783 Debug Connection id "0HN5VOVRBH8FA" completed keep alive response.
+2024-08-19 01:05:44.6783 Info Request finished HTTP/1.1 GET http://localhost:5256/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 - text/javascript 3.9162ms
+2024-08-19 01:05:44.6783 Info Request starting HTTP/1.1 GET http://localhost:5256/_vs/browserLink - - -
+2024-08-19 01:05:44.6998 Debug Connection id "0HN5VOVRBH8F9" completed keep alive response.
+2024-08-19 01:05:44.6998 Info Request finished HTTP/1.1 GET http://localhost:5256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 7.1123ms
+2024-08-19 01:05:44.7391 Info Request starting HTTP/1.1 GET http://localhost:5256/favicon.ico - - -
+2024-08-19 01:05:44.7391 Trace All hosts are allowed.
+2024-08-19 01:05:44.7391 Trace Range header's value is empty.
+2024-08-19 01:05:44.7391 Info The file /favicon.ico was not modified
+2024-08-19 01:05:44.7391 Debug Handled. Status code: 304 File: /favicon.ico
+2024-08-19 01:05:44.7391 Debug Connection id "0HN5VOVRBH8F9" completed keep alive response.
+2024-08-19 01:05:44.7391 Info Request finished HTTP/1.1 GET http://localhost:5256/favicon.ico - 304 - image/x-icon 1.8435ms
+2024-08-19 01:06:31.1096 Debug init main
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-19 01:06:31.2347 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:06:31.2347 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-19 01:06:31.2626 Debug Hosting starting
+2024-08-19 01:06:31.2702 Info User profile is available. Using 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 01:06:31.2702 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-d4abafb7-3a22-430b-b387-942c3364866f.xml'.
+2024-08-19 01:06:31.2702 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-f16383bd-12cb-4ce6-9663-054c0e1426d7.xml'.
+2024-08-19 01:06:31.2702 Debug Found key {d4abafb7-3a22-430b-b387-942c3364866f}.
+2024-08-19 01:06:31.2799 Debug Found key {f16383bd-12cb-4ce6-9663-054c0e1426d7}.
+2024-08-19 01:06:31.2799 Debug Considering key {f16383bd-12cb-4ce6-9663-054c0e1426d7} with expiration date 2024-11-05 18:46:24Z as default key.
+2024-08-19 01:06:31.2799 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 01:06:31.2799 Debug Decrypting secret element using Windows DPAPI.
+2024-08-19 01:06:31.2799 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 01:06:31.2799 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-08-19 01:06:31.2799 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-08-19 01:06:31.2799 Debug Using key {f16383bd-12cb-4ce6-9663-054c0e1426d7} as the default key.
+2024-08-19 01:06:31.2799 Debug Key ring with default key {f16383bd-12cb-4ce6-9663-054c0e1426d7} was loaded during application startup.
+2024-08-19 01:06:31.3141 Info Now listening on: http://localhost:5256
+2024-08-19 01:06:31.3141 Debug Loaded hosting startup assembly NLogForASP
+2024-08-19 01:06:31.3141 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-19 01:06:31.3141 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-19 01:06:31.3141 Info Application started. Press Ctrl+C to shut down.
+2024-08-19 01:06:31.3141 Info Hosting environment: Development
+2024-08-19 01:06:31.3141 Info Content root path: C:\Users\Novruzoff\source\repos\NLogForASP
+2024-08-19 01:06:31.3141 Debug Hosting started
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E0" received FIN.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E0" accepted.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E0" started.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E1" accepted.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E1" started.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E2" accepted.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E2" started.
+2024-08-19 01:06:31.4259 Debug Connection id "0HN5VP6H6T6E0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:06:31.4364 Debug Connection id "0HN5VP6H6T6E0" disconnecting.
+2024-08-19 01:06:31.4364 Debug Connection id "0HN5VP6H6T6E0" stopped.
+2024-08-19 01:06:31.4516 Info Request starting HTTP/1.1 GET http://localhost:5256/ - - -
+2024-08-19 01:06:31.4864 Debug Wildcard detected, all requests with hosts will be allowed.
+2024-08-19 01:06:31.4864 Trace All hosts are allowed.
+2024-08-19 01:06:31.4864 Warn Failed to determine the https port for redirect.
+2024-08-19 01:06:31.4864 Debug The request path / does not match a supported file type
+2024-08-19 01:06:31.4864 Debug 1 candidate(s) found for the request path '/'
+2024-08-19 01:06:31.4993 Debug Endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-19 01:06:31.4993 Debug Request matched endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:06:31.4993 Trace The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-08-19 01:06:31.4993 Info Executing endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:06:31.5146 Info Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NLogForASP.Controllers.HomeController (NLogForASP).
+2024-08-19 01:06:31.5146 Debug Execution plan of authorization filters (in the following order): None
+2024-08-19 01:06:31.5146 Debug Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:06:31.5146 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2024-08-19 01:06:31.5146 Debug Execution plan of exception filters (in the following order): None
+2024-08-19 01:06:31.5146 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:06:31.5146 Trace Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5146 Trace Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5146 Debug Executing controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:06:31.5146 Debug NLog HomeController-a inject olundu!
+2024-08-19 01:06:31.5146 Debug Executed controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:06:31.5146 Trace Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:06:31.5146 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:06:31.5146 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:06:31.5146 Info Executing action method NLogForASP.Controllers.HomeController.Index (NLogForASP) - Validation state: Valid
+2024-08-19 01:06:31.5146 Info HomeController-un Index səhifəsi işə düşdü
+2024-08-19 01:06:31.5146 Info Informasiya üçün log
+2024-08-19 01:06:31.5146 Debug Debug üçün log
+2024-08-19 01:06:31.5146 Warn Xəbərdarlıq üçün log
+2024-08-19 01:06:31.5146 Error Xəta üçün log
+2024-08-19 01:06:31.5146 Fatal Çökmə üçün log
+2024-08-19 01:06:31.5335 Info Executed action method NLogForASP.Controllers.HomeController.Index (NLogForASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.7116ms.
+2024-08-19 01:06:31.5335 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:06:31.5335 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:06:31.5335 Trace Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:06:31.5335 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5335 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5335 Trace Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:06:31.5335 Debug View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-19 01:06:31.5335 Trace Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-08-19 01:06:31.5335 Trace Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-08-19 01:06:31.5335 Trace Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-08-19 01:06:31.5335 Trace Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-08-19 01:06:31.5335 Info Executing ViewResult, running view Index.
+2024-08-19 01:06:31.5335 Debug The view path '/Views/Home/Index.cshtml' was found in 3.9779ms.
+2024-08-19 01:06:31.5519 Debug View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-19 01:06:31.5519 Trace Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-08-19 01:06:31.5519 Trace Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:06:31.5873 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:06:31.5873 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:06:31.5873 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:06:31.5873 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:06:31.5873 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:06:31.5873 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:06:31.5915 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:06:31.5915 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:06:31.5915 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:06:31.5915 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:06:31.5915 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:06:31.5915 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:06:31.5915 Debug Response markup is scheduled to include Browser Link script injection.
+2024-08-19 01:06:31.5915 Debug Response markup is scheduled to include browser refresh script injection.
+2024-08-19 01:06:31.5915 Info Executed ViewResult - view Index executed in 66.5829ms.
+2024-08-19 01:06:31.5915 Trace After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:06:31.5915 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5915 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5915 Trace Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5915 Trace Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:06:31.5915 Info Executed action NLogForASP.Controllers.HomeController.Index (NLogForASP) in 86.4154ms
+2024-08-19 01:06:31.5915 Info Executed endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:06:31.5915 Debug Response markup was updated to include Browser Link script injection.
+2024-08-19 01:06:31.5915 Debug Response markup was updated to include browser refresh script injection.
+2024-08-19 01:06:31.5915 Debug Connection id "0HN5VP6H6T6E1" completed keep alive response.
+2024-08-19 01:06:31.5915 Info Request finished HTTP/1.1 GET http://localhost:5256/ - 200 - text/html;+charset=utf-8 155.9428ms
+2024-08-19 01:06:31.6336 Info Request starting HTTP/1.1 GET http://localhost:5256/_vs/browserLink - - -
+2024-08-19 01:06:31.6336 Info Request starting HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - - -
+2024-08-19 01:06:31.6336 Debug Connection id "0HN5VP6H6T6E1" completed keep alive response.
+2024-08-19 01:06:31.6336 Info Request finished HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.2383ms
+2024-08-19 01:06:31.6578 Debug Connection id "0HN5VP6H6T6E2" completed keep alive response.
+2024-08-19 01:06:31.6578 Info Request finished HTTP/1.1 GET http://localhost:5256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 24.3543ms
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E2" received FIN.
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E1" received FIN.
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E1" disconnecting.
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E2" disconnecting.
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E2" stopped.
+2024-08-19 01:06:32.5686 Debug Connection id "0HN5VP6H6T6E1" stopped.
+2024-08-19 01:07:03.1276 Debug init main
+2024-08-19 01:07:03.2447 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-19 01:07:03.2481 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-19 01:07:03.2481 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-19 01:07:03.2481 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-19 01:07:03.2481 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-19 01:07:03.2481 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-19 01:07:03.2481 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:07:03.2481 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-19 01:07:03.2729 Debug Hosting starting
+2024-08-19 01:07:03.2803 Info User profile is available. Using 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 01:07:03.2803 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-d4abafb7-3a22-430b-b387-942c3364866f.xml'.
+2024-08-19 01:07:03.2803 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-f16383bd-12cb-4ce6-9663-054c0e1426d7.xml'.
+2024-08-19 01:07:03.2803 Debug Found key {d4abafb7-3a22-430b-b387-942c3364866f}.
+2024-08-19 01:07:03.2803 Debug Found key {f16383bd-12cb-4ce6-9663-054c0e1426d7}.
+2024-08-19 01:07:03.2951 Debug Considering key {f16383bd-12cb-4ce6-9663-054c0e1426d7} with expiration date 2024-11-05 18:46:24Z as default key.
+2024-08-19 01:07:03.2951 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 01:07:03.2951 Debug Decrypting secret element using Windows DPAPI.
+2024-08-19 01:07:03.2951 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 01:07:03.2951 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-08-19 01:07:03.2951 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-08-19 01:07:03.2951 Debug Using key {f16383bd-12cb-4ce6-9663-054c0e1426d7} as the default key.
+2024-08-19 01:07:03.2951 Debug Key ring with default key {f16383bd-12cb-4ce6-9663-054c0e1426d7} was loaded during application startup.
+2024-08-19 01:07:03.3225 Info Now listening on: http://localhost:5256
+2024-08-19 01:07:03.3280 Debug Loaded hosting startup assembly NLogForASP
+2024-08-19 01:07:03.3280 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-19 01:07:03.3280 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-19 01:07:03.3280 Info Application started. Press Ctrl+C to shut down.
+2024-08-19 01:07:03.3280 Info Hosting environment: Development
+2024-08-19 01:07:03.3280 Info Content root path: C:\Users\Novruzoff\source\repos\NLogForASP
+2024-08-19 01:07:03.3280 Debug Hosting started
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPM" received FIN.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPL" received FIN.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPL" accepted.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPM" accepted.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPM" started.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPL" started.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPN" accepted.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPO" accepted.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPN" started.
+2024-08-19 01:07:03.5500 Debug Connection id "0HN5VP6QP8MPO" started.
+2024-08-19 01:07:03.5611 Debug Connection id "0HN5VP6QP8MPL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:07:03.5611 Debug Connection id "0HN5VP6QP8MPM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:07:03.5611 Debug Connection id "0HN5VP6QP8MPL" disconnecting.
+2024-08-19 01:07:03.5611 Debug Connection id "0HN5VP6QP8MPM" disconnecting.
+2024-08-19 01:07:03.5611 Debug Connection id "0HN5VP6QP8MPL" stopped.
+2024-08-19 01:07:03.5611 Debug Connection id "0HN5VP6QP8MPM" stopped.
+2024-08-19 01:07:03.5763 Info Request starting HTTP/1.1 GET http://localhost:5256/ - - -
+2024-08-19 01:07:03.6123 Debug Wildcard detected, all requests with hosts will be allowed.
+2024-08-19 01:07:03.6123 Trace All hosts are allowed.
+2024-08-19 01:07:03.6123 Warn Failed to determine the https port for redirect.
+2024-08-19 01:07:03.6123 Debug The request path / does not match a supported file type
+2024-08-19 01:07:03.6262 Debug 1 candidate(s) found for the request path '/'
+2024-08-19 01:07:03.6262 Debug Endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-19 01:07:03.6262 Debug Request matched endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:07:03.6262 Trace The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-08-19 01:07:03.6262 Info Executing endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:07:03.6447 Info Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NLogForASP.Controllers.HomeController (NLogForASP).
+2024-08-19 01:07:03.6447 Debug Execution plan of authorization filters (in the following order): None
+2024-08-19 01:07:03.6447 Debug Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:07:03.6447 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2024-08-19 01:07:03.6447 Debug Execution plan of exception filters (in the following order): None
+2024-08-19 01:07:03.6447 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:07:03.6447 Trace Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.6447 Trace Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.6447 Debug Executing controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:07:03.6447 Debug NLog HomeController-a inject olundu!
+2024-08-19 01:07:03.6447 Debug Executed controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:07:03.6447 Trace Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:07:03.6447 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:03.6447 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:03.6544 Info Executing action method NLogForASP.Controllers.HomeController.Index (NLogForASP) - Validation state: Valid
+2024-08-19 01:07:03.6544 Info HomeController-un Index səhifəsi işə düşdü
+2024-08-19 01:07:03.6544 Info Informasiya üçün log
+2024-08-19 01:07:03.6544 Debug Debug üçün log
+2024-08-19 01:07:03.6544 Warn Xəbərdarlıq üçün log
+2024-08-19 01:07:03.6544 Error Xəta üçün log
+2024-08-19 01:07:03.6544 Fatal Çökmə üçün log
+2024-08-19 01:07:03.6544 Info Executed action method NLogForASP.Controllers.HomeController.Index (NLogForASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0326ms.
+2024-08-19 01:07:03.6544 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:03.6544 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:03.6544 Trace Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:07:03.6544 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.6544 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.6544 Trace Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:07:03.6544 Debug View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-19 01:07:03.6544 Trace Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-08-19 01:07:03.6544 Trace Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-08-19 01:07:03.6544 Trace Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-08-19 01:07:03.6544 Trace Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-08-19 01:07:03.6544 Info Executing ViewResult, running view Index.
+2024-08-19 01:07:03.6544 Debug The view path '/Views/Home/Index.cshtml' was found in 3.4206ms.
+2024-08-19 01:07:03.6780 Debug View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-19 01:07:03.6780 Trace Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-08-19 01:07:03.6780 Trace Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:07:03.7029 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:07:03.7029 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:07:03.7029 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:07:03.7029 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:07:03.7029 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:07:03.7029 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:07:03.7029 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:07:03.7029 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:07:03.7029 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:07:03.7029 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:07:03.7029 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:07:03.7029 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:07:03.7029 Debug Response markup is scheduled to include Browser Link script injection.
+2024-08-19 01:07:03.7029 Debug Response markup is scheduled to include browser refresh script injection.
+2024-08-19 01:07:03.7029 Info Executed ViewResult - view Index executed in 54.0143ms.
+2024-08-19 01:07:03.7029 Trace After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:07:03.7168 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.7168 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.7168 Trace Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.7168 Trace Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:03.7168 Info Executed action NLogForASP.Controllers.HomeController.Index (NLogForASP) in 71.2041ms
+2024-08-19 01:07:03.7168 Info Executed endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:07:03.7168 Debug Response markup was updated to include Browser Link script injection.
+2024-08-19 01:07:03.7168 Debug Response markup was updated to include browser refresh script injection.
+2024-08-19 01:07:03.7168 Debug Connection id "0HN5VP6QP8MPN" completed keep alive response.
+2024-08-19 01:07:03.7168 Info Request finished HTTP/1.1 GET http://localhost:5256/ - 200 - text/html;+charset=utf-8 145.2498ms
+2024-08-19 01:07:03.7460 Info Request starting HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - - -
+2024-08-19 01:07:03.7460 Info Request starting HTTP/1.1 GET http://localhost:5256/_vs/browserLink - - -
+2024-08-19 01:07:03.7460 Debug Connection id "0HN5VP6QP8MPN" completed keep alive response.
+2024-08-19 01:07:03.7483 Info Request finished HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.1115ms
+2024-08-19 01:07:03.7733 Debug Connection id "0HN5VP6QP8MPO" completed keep alive response.
+2024-08-19 01:07:03.7733 Info Request finished HTTP/1.1 GET http://localhost:5256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 27.6380ms
+2024-08-19 01:07:20.5167 Debug init main
+2024-08-19 01:07:20.6341 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2024-08-19 01:07:20.6341 Debug Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-19 01:07:20.6341 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-19 01:07:20.6341 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-19 01:07:20.6380 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-19 01:07:20.6380 Debug Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-19 01:07:20.6380 Debug Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:07:20.6380 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-19 01:07:20.6645 Debug Hosting starting
+2024-08-19 01:07:20.6727 Info User profile is available. Using 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-19 01:07:20.6727 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-d4abafb7-3a22-430b-b387-942c3364866f.xml'.
+2024-08-19 01:07:20.6727 Debug Reading data from file 'C:\Users\Novruzoff\AppData\Local\ASP.NET\DataProtection-Keys\key-f16383bd-12cb-4ce6-9663-054c0e1426d7.xml'.
+2024-08-19 01:07:20.6727 Debug Found key {d4abafb7-3a22-430b-b387-942c3364866f}.
+2024-08-19 01:07:20.6727 Debug Found key {f16383bd-12cb-4ce6-9663-054c0e1426d7}.
+2024-08-19 01:07:20.6896 Debug Considering key {f16383bd-12cb-4ce6-9663-054c0e1426d7} with expiration date 2024-11-05 18:46:24Z as default key.
+2024-08-19 01:07:20.6896 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 01:07:20.6896 Debug Decrypting secret element using Windows DPAPI.
+2024-08-19 01:07:20.6896 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-19 01:07:20.6896 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-08-19 01:07:20.6896 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-08-19 01:07:20.6896 Debug Using key {f16383bd-12cb-4ce6-9663-054c0e1426d7} as the default key.
+2024-08-19 01:07:20.6896 Debug Key ring with default key {f16383bd-12cb-4ce6-9663-054c0e1426d7} was loaded during application startup.
+2024-08-19 01:07:20.7185 Info Now listening on: http://localhost:5256
+2024-08-19 01:07:20.7185 Debug Loaded hosting startup assembly NLogForASP
+2024-08-19 01:07:20.7185 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-19 01:07:20.7185 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-19 01:07:20.7185 Info Application started. Press Ctrl+C to shut down.
+2024-08-19 01:07:20.7185 Info Hosting environment: Development
+2024-08-19 01:07:20.7185 Info Content root path: C:\Users\Novruzoff\source\repos\NLogForASP
+2024-08-19 01:07:20.7185 Debug Hosting started
+2024-08-19 01:07:21.0401 Debug Connection id "0HN5VP70028H4" accepted.
+2024-08-19 01:07:21.0401 Debug Connection id "0HN5VP70028H4" started.
+2024-08-19 01:07:21.0477 Debug Connection id "0HN5VP70028H5" accepted.
+2024-08-19 01:07:21.0477 Debug Connection id "0HN5VP70028H5" started.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H5" received FIN.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H4" received FIN.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H5" disconnecting.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H4" disconnecting.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H4" stopped.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H5" stopped.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H6" accepted.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H6" started.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H7" accepted.
+2024-08-19 01:07:21.0800 Debug Connection id "0HN5VP70028H7" started.
+2024-08-19 01:07:21.1074 Info Request starting HTTP/1.1 GET http://localhost:5256/ - - -
+2024-08-19 01:07:21.1464 Debug Wildcard detected, all requests with hosts will be allowed.
+2024-08-19 01:07:21.1464 Trace All hosts are allowed.
+2024-08-19 01:07:21.1464 Warn Failed to determine the https port for redirect.
+2024-08-19 01:07:21.1464 Debug The request path / does not match a supported file type
+2024-08-19 01:07:21.1585 Debug 1 candidate(s) found for the request path '/'
+2024-08-19 01:07:21.1585 Debug Endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-19 01:07:21.1585 Debug Request matched endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:07:21.1585 Trace The endpoint does not specify the IRequestSizeLimitMetadata.
+2024-08-19 01:07:21.1585 Info Executing endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:07:21.1761 Info Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NLogForASP.Controllers.HomeController (NLogForASP).
+2024-08-19 01:07:21.1761 Debug Execution plan of authorization filters (in the following order): None
+2024-08-19 01:07:21.1761 Debug Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:07:21.1761 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)
+2024-08-19 01:07:21.1761 Debug Execution plan of exception filters (in the following order): None
+2024-08-19 01:07:21.1761 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2024-08-19 01:07:21.1761 Trace Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.1761 Trace Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.1761 Debug Executing controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:07:21.1761 Debug NLog HomeController-a inject olundu!
+2024-08-19 01:07:21.1761 Debug Executed controller factory for controller NLogForASP.Controllers.HomeController (NLogForASP)
+2024-08-19 01:07:21.1761 Trace Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:07:21.1761 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:21.1761 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:21.1859 Info Executing action method NLogForASP.Controllers.HomeController.Index (NLogForASP) - Validation state: Valid
+2024-08-19 01:07:21.1859 Info HomeController-un Index səhifəsi işə düşdü
+2024-08-19 01:07:21.1859 Info Informasiya üçün log
+2024-08-19 01:07:21.1859 Debug Debug üçün log
+2024-08-19 01:07:21.1859 Warn Xəbərdarlıq üçün log
+2024-08-19 01:07:21.1859 Error Xəta üçün log
+2024-08-19 01:07:21.1859 Fatal Çökmə üçün log
+2024-08-19 01:07:21.1859 Info Executed action method NLogForASP.Controllers.HomeController.Index (NLogForASP), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.6542ms.
+2024-08-19 01:07:21.1859 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:21.1859 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-08-19 01:07:21.1859 Trace Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2024-08-19 01:07:21.1859 Trace Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.1859 Trace Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.1859 Trace Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:07:21.1859 Debug View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-19 01:07:21.1859 Trace Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2024-08-19 01:07:21.1859 Trace Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2024-08-19 01:07:21.1859 Trace Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2024-08-19 01:07:21.1859 Trace Could not find a file for view at path '/_ViewStart.cshtml'.
+2024-08-19 01:07:21.1859 Info Executing ViewResult, running view Index.
+2024-08-19 01:07:21.2024 Debug The view path '/Views/Home/Index.cshtml' was found in 3.9942ms.
+2024-08-19 01:07:21.2024 Debug View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-19 01:07:21.2024 Trace Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2024-08-19 01:07:21.2024 Trace Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2024-08-19 01:07:21.2366 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:07:21.2366 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:07:21.2366 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:07:21.2366 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Index],controller=[Home])
+2024-08-19 01:07:21.2366 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-19 01:07:21.2366 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /
+2024-08-19 01:07:21.2366 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:07:21.2366 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:07:21.2366 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:07:21.2366 Debug Found the endpoints Route: {controller=Home}/{action=Index}/{id?} for address (area=[],action=[Privacy],controller=[Home])
+2024-08-19 01:07:21.2366 Debug Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-19 01:07:21.2366 Debug Link generation succeeded for endpoints Route: {controller=Home}/{action=Index}/{id?} with result /Home/Privacy
+2024-08-19 01:07:21.2366 Debug Response markup is scheduled to include Browser Link script injection.
+2024-08-19 01:07:21.2488 Debug Response markup is scheduled to include browser refresh script injection.
+2024-08-19 01:07:21.2488 Info Executed ViewResult - view Index executed in 55.3583ms.
+2024-08-19 01:07:21.2488 Trace After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2024-08-19 01:07:21.2488 Trace Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.2488 Trace Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.2488 Trace Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.2488 Trace Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2024-08-19 01:07:21.2488 Info Executed action NLogForASP.Controllers.HomeController.Index (NLogForASP) in 75.1597ms
+2024-08-19 01:07:21.2488 Info Executed endpoint 'NLogForASP.Controllers.HomeController.Index (NLogForASP)'
+2024-08-19 01:07:21.2488 Debug Response markup was updated to include Browser Link script injection.
+2024-08-19 01:07:21.2488 Debug Response markup was updated to include browser refresh script injection.
+2024-08-19 01:07:21.2488 Debug Connection id "0HN5VP70028H6" completed keep alive response.
+2024-08-19 01:07:21.2488 Info Request finished HTTP/1.1 GET http://localhost:5256/ - 200 - text/html;+charset=utf-8 149.8764ms
+2024-08-19 01:07:21.2878 Info Request starting HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - - -
+2024-08-19 01:07:21.2878 Info Request starting HTTP/1.1 GET http://localhost:5256/_vs/browserLink - - -
+2024-08-19 01:07:21.2878 Debug Connection id "0HN5VP70028H6" completed keep alive response.
+2024-08-19 01:07:21.2878 Info Request finished HTTP/1.1 GET http://localhost:5256/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript;+charset=utf-8 2.6616ms
+2024-08-19 01:07:21.3083 Debug Connection id "0HN5VP70028H7" completed keep alive response.
+2024-08-19 01:07:21.3083 Info Request finished HTTP/1.1 GET http://localhost:5256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 20.8940ms
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H7" received FIN.
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H6" received FIN.
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H7" disconnecting.
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H6" disconnecting.
+2024-08-19 01:07:22.6603 Debug Connection id "0HN5VP70028H7" stopped.
+2024-08-19 01:07:22.6749 Debug Connection id "0HN5VP70028H6" stopped.
