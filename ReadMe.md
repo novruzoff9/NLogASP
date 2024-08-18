@@ -39,6 +39,8 @@ Logların necə qeyd ediləcəyini seçmək üçün isə öncədən yaratdığı
 </targets>
 ```
 targets hissəsindən istifadə edərək loglamanın harada yerinə yetirələcəyini qeyd edirik. Bu əsasən ya fayl ya da konsol üzərindən olur.
+```Layout``` atributu ilə log-un necə yazılacaığını qeyd edirik
+File tipində olan loglamada əlavə olaraq ```fileName``` ilə faylın saxlanılacağı ünvanı qeyd edirik.
 
 ```html
 <rules>
@@ -46,4 +48,4 @@ targets hissəsindən istifadə edərək loglamanın harada yerinə yetirələc�
 	<logger name="*" minlevel="Trace" writeTo="WriteToConsole" />
 </rules>
 ```
-sonda isə rules hissəsində olanların name atributlarına əsasən logger-lər yazırıq və proqramı işə salırıq."# NLogASP" 
+sonda isə rules hissəsində olanların name atributlarına əsasən logger-lər yazırıq və proqramı işə salırıq.
